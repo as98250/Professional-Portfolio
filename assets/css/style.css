@@ -11,6 +11,7 @@
   }
   
   header {
+    /* display: flex; */
     padding: 60px;
     text-align: center;
     background-image: url('../images/galexy-again.jpg');
@@ -22,5 +23,19 @@
   
   nav {
     display: flex;
-    
+    justify-content: center;
+    flex-direction: row;
+  }
+  ul {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  li {
+    padding: 20px;
+    list-style-type: none;
+  }
+  li a:hover {
+      background-color: #363231;
+      color: white;
   }
